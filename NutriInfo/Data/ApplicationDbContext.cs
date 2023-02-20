@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using NutriInfo.Models;
 
 namespace NutriInfo.Data
 {
@@ -9,5 +10,8 @@ namespace NutriInfo.Data
             : base(options)
         {
         }
+        
+        public DbSet<Diet>? Diets { get; set; }
+        public DbSet<Food>? Foods { get; set; }
     }
 }
