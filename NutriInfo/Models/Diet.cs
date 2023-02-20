@@ -17,7 +17,8 @@ namespace NutriInfo.Models
 
         [Range(1,10, ErrorMessage = "Difficulty level should be between 1 and 10.")]
         public int? DifficultLevel { get; set; }        // difficulty level to follow the diet in the range of 1-10
-
-        public virtual ICollection<Food> Foods { get; set; }    //Navigation for the foreign key
+        
+        
+        public virtual ICollection<Food>? Foods { get; set; }    //Navigation for the foreign key
     }
 }

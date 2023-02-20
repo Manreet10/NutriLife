@@ -18,6 +18,7 @@ namespace NutriInfo.Models
 
         [Required]
         public int DietId { get; set; }         //foreign key - the diet for which the food is good
-        public virtual Diet Diet { get; set; }  //navigation property for the Diet(parent) table
+        public virtual Diet? Diet { get; set; }  //navigation property for the Diet(parent) table
+        
     }
 }
