@@ -22,7 +22,7 @@ namespace NutriInfo.Controllers
         }
 
         // GET: Foods
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Foods.Include(f => f.Diet);
