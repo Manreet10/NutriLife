@@ -11,7 +11,7 @@ using NutriInfo.Models;
 
 namespace NutriInfo.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Administrator")]
     public class FoodsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,7 +22,7 @@ namespace NutriInfo.Controllers
         }
 
         // GET: Foods
-        //[AllowAnonymous]
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Foods.Include(f => f.Diet);

@@ -20,17 +20,14 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DietList" asp-action="Index">DietList</a>
                         </li>
-                        @if(User.Identity.IsAuthenticated)
+                        @if(User.IsInRole("Administrator"))
                         {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Diets" asp-action="Index">Diets</a>
                         </li>
-                        }
-
-                        @if(User.Identity.IsAuthenticated)
-                        {
+                     
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Foods" asp-action="Index">Food</a>
                         </li>
