@@ -4,11 +4,11 @@ Project for COMP 1009-23W-21416
 
 ##### Student Name:  Manreet Grewal
  
-###### Purpose of your application: The purpose of the application is to provide information about various kinds of diets and different kind of food one can have to follow the diet type.
+##### Purpose of your application: The purpose of the application is to provide information about various kinds of diets and different kind of food one can have to follow the diet type.
 
-###### Why will this application be useful? It will help people find and learn about different diets. Being able to find diet and food required in a organized format at the same place can make research for a healthy lifestyle and eating habits an easy task.
+##### Why will this application be useful? It will help people find and learn about different diets. Being able to find diet and food required in a organized format at the same place can make research for a healthy lifestyle and eating habits an easy task.
 
-### The deployed website can be found [here](http://mgrewal-001-site1.gtempurl.com)
+##### 3 unit test are created for the CREATE(GET) METHOD FOR THE FOODSCONTROLLER.CS in this project . Out of the 3, 2 pass and 1 fail wherin it fails to set the dietId to select Id for the the user to select from when creating or adding a new food object to the website.
 
-###### The SmarterASP.NET generated a url with http and hence included here. I am still working on figuring to convert to https or be redirected to https. The redirect menthod works but the page say "This site can't be reached". It should be resolved soon. 
+###### The deployment has been stopped as instructed and the project now runs locally. 
 
