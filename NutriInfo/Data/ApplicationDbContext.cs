@@ -11,7 +11,7 @@ namespace NutriInfo.Data
         {
         }
         
-        public DbSet<Diet>? Diets { get; set; }
-        public DbSet<Food>? Foods { get; set; }
+        public DbSet<Diet> Diets { get; set; }
+        public DbSet<Food> Foods { get; set; }
     }
 }

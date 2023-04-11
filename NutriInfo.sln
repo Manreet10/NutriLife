@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutriInfo", "NutriInfo\NutriInfo.csproj", "{7D46652F-2FC0-4942-8D1F-F4A76C16343F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriInfoTest", "NutriInfoTest\NutriInfoTest.csproj", "{2BAC2778-CEEC-437E-8F22-7C66A9E1F232}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriInfoTest", "NutriInfoTest\NutriInfoTest.csproj", "{1221AC1E-EFF8-4127-B21F-0ED2CB911189}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7D46652F-2FC0-4942-8D1F-F4A76C16343F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D46652F-2FC0-4942-8D1F-F4A76C16343F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D46652F-2FC0-4942-8D1F-F4A76C16343F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BAC2778-CEEC-437E-8F22-7C66A9E1F232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BAC2778-CEEC-437E-8F22-7C66A9E1F232}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BAC2778-CEEC-437E-8F22-7C66A9E1F232}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BAC2778-CEEC-437E-8F22-7C66A9E1F232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1221AC1E-EFF8-4127-B21F-0ED2CB911189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1221AC1E-EFF8-4127-B21F-0ED2CB911189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1221AC1E-EFF8-4127-B21F-0ED2CB911189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1221AC1E-EFF8-4127-B21F-0ED2CB911189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

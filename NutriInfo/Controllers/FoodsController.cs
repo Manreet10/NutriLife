@@ -51,8 +51,8 @@ namespace NutriInfo.Controllers
         // GET: Foods/Create
         public IActionResult Create()
         {
-            ViewData["DietId"] = new SelectList(_context.Diets, "DietId", "Benefit");
-            return View();
+            ViewData["DietId"] = new SelectList(_context.Diets, "DietId", "Name");
+            return View("Create");
         }
 
         // POST: Foods/Create
